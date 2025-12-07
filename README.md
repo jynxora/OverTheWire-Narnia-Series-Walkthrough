@@ -29,69 +29,69 @@ All write-ups are provided as PDFs, supported by scripts or payload files when r
 
 Narnia is designed to build exploitation fundamentals, including:
 
-Understanding stack memory layout
+  - Understanding stack memory layout
 
-Identifying unsafe functions (gets, strcpy, sprintf, etc.)
+  - Identifying unsafe functions (gets, strcpy, sprintf, etc.)
 
-Calculating overflow offsets
+  - Calculating overflow offsets
 
-Redirecting program flow
+  - Redirecting program flow
 
-Privilege escalation using simple binary weaknesses
+  - Privilege escalation using simple binary weaknesses
 
-Using gdb to analyze crashes and memory corruption
+  - Using gdb to analyze crashes and memory corruption
 
-Crafting payloads & input patterns
+  - Crafting payloads & input patterns
 
-Using environment variables to influence execution
+  - Using environment variables to influence execution
 
 The goal is not speed — the goal is technical clarity.
 
 ## Tools & Techniques Used
 
-GDB / pwndbg / gef for stack inspection
+  - GDB / pwndbg / gef for stack inspection
 
-Python (payload generation, simple socket wrappers)
+  - Python (payload generation, simple socket wrappers)
 
-Bash for exploit chaining
+  - Bash for exploit chaining
 
-objdump, ltrace, strace for program analysis
+  - objdump, ltrace, strace for program analysis
 
-hex editors / xxd / hexdump
+  - hex editors / xxd / hexdump
 
-ASM basics for return-address redirection
+  - ASM basics for return-address redirection
 
-Memory diagrams to map stack frames
+  - Memory diagrams to map stack frames
 
 ## Structure of Each Write-up (PDF)
 
 Each PDF in this repository follows a consistent structure:
 
-Level Description
+  - Level Description
 
-Binary Behavior Summary
+  - Binary Behavior Summary
 
-Vulnerability Identification
+  - Vulnerability Identification
 
-Static Analysis (strings, objdump, hexdump, source code)
+  - Static Analysis (strings, objdump, hexdump, source code)
 
-Dynamic Analysis (running, crashing, gdb)
+  - Dynamic Analysis (running, crashing, gdb)
 
-Exploit Development
+  - Exploit Development
 
-payload construction
+  - payload construction
 
-offsets
+  - offsets
 
-memory layout diagrams
+  - memory layout diagrams
 
-Execution Strategy
+  - Execution Strategy
 
-What Worked / What Didn’t Work
+  - What Worked / What Didn’t Work
 
-Final Exploit
+  - Final Exploit
 
-Lessons for the Next Level
+  - Lessons for the Next Level
 
 This ensures each level is documented with repeatable methodology.
 
